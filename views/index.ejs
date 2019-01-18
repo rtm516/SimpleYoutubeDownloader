@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Simple Youtube Downloader</title>
+    <meta name="description" content="A simple youtube video downloader">
+    <meta name="author" content="rtm516">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Simple Youtube Downloader</h1>
+        <form id="youtubeForm">
+            <input id="url" pattern="^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+" type="text" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" value="https://www.youtube.com/watch?v=dQw4w9WgXcQ" size="35"><input type="submit" value="GET">
+        </form>
+        <section id="result"></section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

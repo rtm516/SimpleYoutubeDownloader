@@ -1,0 +1,107 @@
+body {
+    background: url("/img/meadow-3743023_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+main h1 {
+    font-size: 4.5em;
+    margin-top: 0px;
+}
+
+main form {
+    display: inline-flex;    
+}
+
+main input {
+    font-size: 1.5em;
+    font-family: inherit;
+}
+
+main input[type=text] {
+    background-color: #EEE;
+
+    border: 0px;
+    border-right: none;
+    padding: 4px;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+main input[type=submit] {
+    background-color: #2ecc71;
+    color: #FFF;
+
+    border: 0px;
+    padding: 4px 10px;
+
+    cursor: pointer;
+
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#result {
+    color: #000;
+
+    display: block;
+
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#result table {
+    background: #FFF;
+    display: inline-table;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#resultImage {
+    height: 6em;
+    display: block;
+}
+
+#resultInfo {
+    vertical-align: top;
+    text-align: left;
+}
+
+#dlButton {
+    background-color: #2ecc71;
+    color: #FFF;
+
+    border: 0px;
+    padding: 4px 10px;
+
+    border-radius: 5px;
+
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+}
