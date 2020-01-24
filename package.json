@@ -4,7 +4,9 @@
   "description": "",
   "main": "site.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "rtm516",
   "license": "ISC",
@@ -13,11 +15,13 @@
     "express": "^4.16.4",
     "fluent-ffmpeg": "^2.1.2",
     "request": "^2.88.0",
-    "youtube-dl": "^1.12.2"
+    "youtube-dl": "^1.12.2",
+    "snyk": "^1.189.0"
   },
   "nodemonConfig": {
     "ignore": [
       "./public"
     ]
-  }
+  },
+  "snyk": true
 }
