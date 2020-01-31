@@ -16,7 +16,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "request": "^2.88.0",
     "youtube-dl": "^1.12.2",
-    "snyk": "^1.280.0"
+    "snyk": "^1.290.1"
   },
   "nodemonConfig": {
     "ignore": [
